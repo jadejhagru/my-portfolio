@@ -15,7 +15,7 @@ const App = () => {
       <MyCarousel />
       <TitleMessage />
       <div>
-        <Parallax blur={{ min: -15, max: 15 }} bgImage={require("./assets/img/parallax/background.jpg")} bgImageAlt="" strength={-200}>
+        <Parallax blur={10} bgImage="./assets/img/parallax/background.jpg" bgImageAlt="" strength={200}>
             <div>
             <Container className="container-box rounded">
               <Fade duration={500}>
