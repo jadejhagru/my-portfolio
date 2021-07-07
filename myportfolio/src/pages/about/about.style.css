@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
 .about {
     background-color: transparent;
     font-size: 1.1em;
@@ -9,4 +11,11 @@
   
   .my-details {
     background-color: rgba(255, 255, 255, 0.747);
+  }
+
+  .font-details {
+    font-size: 3em;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
   }
