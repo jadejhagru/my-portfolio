@@ -19,13 +19,13 @@ const MyScroll = styled.div`
 `;
 
 const ScrollDown = () => {
-    return (
-      <MyScroll>
-        <div className="turn">
-          <span> &gt; </span>
-        </div>
-      </MyScroll>
-    );
-  };
-  
-  export default ScrollDown;
+  return (
+    <MyScroll>
+      <div className="turn">
+        <span> &gt; </span>
+      </div>
+    </MyScroll>
+  );
+};
+
+export default ScrollDown;
