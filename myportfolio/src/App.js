@@ -7,6 +7,7 @@ import Fade from "react-reveal/Fade";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Image from "../src/assets/img/parallax/background.jpg";
+import Skills from "../src/pages/skills/skills.component";
 import './App.css';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
             </div>
         </Parallax>
     </div>
+    <Skills />
   </div>
   );
 }
