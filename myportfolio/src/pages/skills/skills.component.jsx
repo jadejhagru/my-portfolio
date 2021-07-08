@@ -4,9 +4,8 @@ import CardDeck from "react-bootstrap/CardDeck"
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import { skills } from "./skills.style.css"
-
-import "./skills-data"
+import "./skills.style.css"
+import { skills } from "./skills-data";
 
 const Skills = () => {
     return (
