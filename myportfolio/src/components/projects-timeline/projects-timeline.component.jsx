@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 import L_WorkoutApplication from "../../assets/img/projects/workout-application.jpg";
@@ -21,14 +21,13 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 import "./project-timeline.style.css";
 
-
 const ProjectTimeline = () => {
-    return (
-        <div id="projects">
-            <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-            <Timeline>
-                <Events>
-                <ImageEvent
+  return (
+    <div id="projects">
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+      <Timeline>
+        <Events>
+          <ImageEvent
             date="04/10/2021"
             className="text-center"
             text="Workout Application"
@@ -49,13 +48,23 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a fitness application we built to help users who are brand new to working out, start their finess journey smoothly. If you are eager and ready to get healthier and lose weight, this will be an ideal way to get started before investing in something more complex and advanced and ultimately see if you can stay consisent with your goals.
+                        <strong>Description:</strong> This is a fitness
+                        application we built to help users who are brand new to
+                        working out, start their finess journey smoothly. If you
+                        are eager and ready to get healthier and lose weight,
+                        this will be an ideal way to get started before
+                        investing in something more complex and advanced and
+                        ultimately see if you can stay consisent with your
+                        goals.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Keeps track of your BMI</li>
                           <li>Calender to schedule your daily workouts</li>
-                          <li>Videos linked to each workout to know how to execute correctly</li>
+                          <li>
+                            Videos linked to each workout to know how to execute
+                            correctly
+                          </li>
                         </ul>
                         <hr />
                         <strong>Technologies used:</strong>
@@ -104,7 +113,6 @@ const ProjectTimeline = () => {
                               JavaScript
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -112,7 +120,7 @@ const ProjectTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton  
+                <UrlButton
                   href="https://jadejhagru.github.io/fitness-application/"
                   target="_blank"
                 >
@@ -149,7 +157,12 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a coding flashcard application where any students can learn about coding and study in a more effective way. User will be prompted to create and account. User can then login and will be directed to our dashboard where they can add, edit, or delete flashcards.
+                        <strong>Description:</strong> This is a coding flashcard
+                        application where any students can learn about coding
+                        and study in a more effective way. User will be prompted
+                        to create and account. User can then login and will be
+                        directed to our dashboard where they can add, edit, or
+                        delete flashcards.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -222,7 +235,7 @@ const ProjectTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton  
+                <UrlButton
                   href="https://project-2-jaws.herokuapp.com/"
                   target="_blank"
                 >
@@ -237,11 +250,10 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-                </Events>
-            </Timeline>
+        </Events>
+      </Timeline>
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default ProjectTimeline
+export default ProjectTimeline;
