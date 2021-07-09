@@ -12,6 +12,8 @@ import Skills from "../src/pages/skills/skills.component";
 import ProjectTimeline from "./components/projects-timeline/projects-timeline.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
+import Particles from "react-particles-js";
+import { ParticlesSnow } from "./particles.js";
 import "./App.css";
 
 const App = () => {
@@ -20,6 +22,7 @@ const App = () => {
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
+      <Particles className="particles particles-box" params={ParticlesSnow} />
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -53,18 +56,17 @@ const App = () => {
         </Container>
 
         <div>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
-                <ContactForm />
-              </Fade>
-            </Container>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <ContactForm />
+            </Fade>
+          </Container>
 
-            <hr />
-      <FooterPanel />
-    </div>
-          </div>
+          <hr />
+          <FooterPanel />
+        </div>
       </div>
-  
+    </div>
   );
 };
 
