@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 import L_WorkoutApplication from "../../assets/img/projects/workout-application.jpg";
 import L_CodingFlashcards from "../../assets/img/projects/coding-flashcards.jpg";
+import L_ArtGallery from "../../assets/img/projects/art-gallery.jpg";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -18,6 +19,8 @@ import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_REACT from "../../assets/img/skills/react.svg";
+import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 
 import "./project-timeline.style.css";
 
@@ -243,6 +246,96 @@ const ProjectTimeline = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/jadejhagru/coding-flashcards"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          <ImageEvent
+            date="08/01/2021"
+            className="text-center"
+            text="Art Gallery"
+            src={L_ArtGallery}
+            alt="Art Gallery"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This application is an online art gallery that allows put their original art up for sale and browse art pieces that have been posted by other users in the community. The application is built with the MERN stack with a GraphQL API. A Stripe placeholder is configured to direct users to a payment page for purchasing art.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Create and authenticate user accounts during signup/login</li>
+                          <li>Allow users to post original pieces of art with the art details</li>
+                          <li>Allow users to purchase art from postings</li>
+                          <li>Allow users to view and search all art that has been posted by other users</li>
+                          <li>Allow users to view their profile, including personal information and art that they have posted</li>
+                        </ul>
+                        <hr />
+                        <strong>Technologies used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="REACT"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              REACT
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_BOOTSTRAP}
+                                alt="REACT BOOTSTRAP"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              REACT BOOTSTRAP
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HEROKU}
+                                alt="Heroku"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Heroku
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://shrouded-sands-03163.herokuapp.com/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/Stevtm/art-gallery-online"
                   target="_blank"
                 >
                   SOURCE CODE
