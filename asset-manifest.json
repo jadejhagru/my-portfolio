@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.cc6c31d6.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.95b340cb.chunk.css",
     "main.js": "/my-portfolio/static/js/main.dd83dbd9.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.dd83dbd9.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.a927f6e8.js",
@@ -8,7 +8,7 @@
     "static/js/2.f2f2cd7e.chunk.js": "/my-portfolio/static/js/2.f2f2cd7e.chunk.js",
     "static/js/2.f2f2cd7e.chunk.js.map": "/my-portfolio/static/js/2.f2f2cd7e.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.cc6c31d6.chunk.css.map": "/my-portfolio/static/css/main.cc6c31d6.chunk.css.map",
+    "static/css/main.95b340cb.chunk.css.map": "/my-portfolio/static/css/main.95b340cb.chunk.css.map",
     "static/js/2.f2f2cd7e.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.f2f2cd7e.chunk.js.LICENSE.txt",
     "static/media/accenture-3.314419f4.svg": "/my-portfolio/static/media/accenture-3.314419f4.svg",
     "static/media/adobexd.b855583d.svg": "/my-portfolio/static/media/adobexd.b855583d.svg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.a927f6e8.js",
     "static/js/2.f2f2cd7e.chunk.js",
-    "static/css/main.cc6c31d6.chunk.css",
+    "static/css/main.95b340cb.chunk.css",
     "static/js/main.dd83dbd9.chunk.js"
   ]
 }
